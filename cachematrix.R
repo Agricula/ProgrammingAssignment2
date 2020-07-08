@@ -2,7 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## makeCacheMatrix creates a new class, which is able to cache it's inverse.
+## Author: Mark Renslow July 8, 2020
 makeCacheMatrix <- function(x = matrix()) {
   
         x_inv <- NULL
@@ -24,7 +25,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## this function works like solve, but it caches the result for retrieval
+## later.
+## Author: Mark Renslow
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   
